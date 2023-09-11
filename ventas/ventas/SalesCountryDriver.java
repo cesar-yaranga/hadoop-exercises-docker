@@ -4,7 +4,6 @@ import java.io.IOException;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
-import org.apache.hadoop.io.Text;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.*;
 import org.apache.hadoop.mapred.*;
@@ -15,8 +14,8 @@ public class SalesCountryDriver {
 
 	public static class SalesMapper 
 			extends MapReduceBase implements Mapper<LongWritable, Text, Text, IntWritable> {
+		
 		private final static IntWritable one = new IntWritable(1);
-		// private final IntWritable one = new IntWritable(1);
 	
 		public void map(LongWritable key, Text value, OutputCollector<Text, IntWritable> output, Reporter reporter) throws IOException {
 	
@@ -24,6 +23,19 @@ public class SalesCountryDriver {
 			String[] SingleCountryData = valueString.split(",");
 			output.collect(new Text(SingleCountryData[7]), one);
 		}
+
+		// public void map(LongWritable key, Text value, OutputCollector<Text, IntWritable> output, Reporter reporter) throws IOException {
+        
+		// 	String valueString = value.toString();
+		// 	String[] SingleCountryData = valueString.split(",");
+			
+		// 	// Para no utilizar los encabezados
+		// 	if(!"Price".equals(SingleCountryData[2])) {
+				
+		// 		// Nuestras llaves son los países
+		// 		output.collect(new Text(SingleCountryData[7]), one);
+		// 	}
+    	// }
 	}
 
 	public static class SalesCountryReducer 

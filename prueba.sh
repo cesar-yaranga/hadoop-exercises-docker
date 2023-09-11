@@ -4,8 +4,8 @@ sudo docker compose up
 
 # Luego copiamos las clases de java a la 
 # carpeta temporal.
-sudo docker cp WordCount.java namenode:/tmp/
-sudo docker cp input.txt namenode:/tmp/
+sudo docker cp SalesCountryDriver.java namenode:/tmp/
+sudo docker cp ../SalesJan2009.csv namenode:/tmp/
 
 # Nos vamos al terminal de namenode
 sudo docker exec -it namenode bash
@@ -15,23 +15,16 @@ export HADOOP_CLASSPATH=$(hadoop classpath)
 
 # Ejecutamos codigo dentro de hadoop
 hadoop fs -mkdir /Input
-# Esto no es necesario
-# hadoop fs -mkdir /Output
-# hadoop fs -put /tmp/WordCount.java /Input
-hadoop fs -put /tmp/input.txt /Input
-SalesJan2009.csv
+hadoop fs -put /tmp/SalesJan2009.csv /Input
 
 mkdir classes
 
-javac -classpath $(hadoop classpath) -d ./classes/ ./tmp/WordCount.java
-# javac -classpath $(hadoop classpath) -d ./classes/ ./tmp/SalesCountry/SalesCountryDriver.java ./tmp/SalesCountry/SalesCountryReducer.java ./tmp/SalesCountry/SalesMapper.java
+javac -classpath $(hadoop classpath) -d ./classes/ ./tmp/SalesCountryDriver.java
 
 # Esto genera el .jar
-jar -cvf WordCount.jar -C ./classes .
-# jar -cvf SalesCountryDriver.jar -C ./classes .
+jar -cvf SalesCountryDriver.jar -C ./classes .
 
-hadoop jar WordCount.jar WordCount /Input/input.txt /Output
-# hadoop jar SalesCountryDriver.jar SalesCountryDriver /Input/SalesJan2009.csv /Output
+hadoop jar SalesCountryDriver.jar SalesCountryDriver /Input/SalesJan2009.csv /Output
 
 hadoop job -list all
 
