@@ -4,7 +4,7 @@ sudo docker compose up
 
 # Luego copiamos las clases de java a la 
 # carpeta temporal.
-sudo docker cp SalesCountryDriver.java namenode:/tmp/
+sudo docker cp SalesCountry.java namenode:/tmp/
 sudo docker cp ../SalesJan2009.csv namenode:/tmp/
 
 # Nos vamos al terminal de namenode
@@ -19,16 +19,16 @@ hadoop fs -put /tmp/SalesJan2009.csv /Input
 
 mkdir classes
 
-javac -classpath $(hadoop classpath) -d ./classes/ ./tmp/SalesCountryDriver.java
+javac -classpath $(hadoop classpath) -d ./classes/ ./tmp/SalesCountry.java
 
 # Esto genera el .jar
-jar -cvf SalesCountryDriver.jar -C ./classes .
+jar -cvf SalesCountry.jar -C ./classes .
 
-hadoop jar SalesCountryDriver.jar SalesCountryDriver /Input/SalesJan2009.csv /Output
+hadoop jar SalesCountry.jar SalesCountry /Input/SalesJan2009.csv /Output
 
-hadoop job -list all
+# hadoop job -list all
 
-hadoop fs -cat /Output/*
+# hadoop fs -cat /Output/*
 
 hadoop fs -cat /Output/* > output.txt
 
