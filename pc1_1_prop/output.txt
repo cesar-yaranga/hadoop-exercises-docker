@@ -1,4 +1,139 @@
-Product	1
-Product1	847
-Product2	136
-Product3	15
+2021,Level 1,Agriculture Forestry and Fishing	24
+2021,Level 1,All industries	24
+2021,Level 1,Arts Recreation and Other Services	25
+2021,Level 1,Construction	26
+2021,Level 1,Education and Training	25
+2021,Level 1,Electricity Gas Water and Waste Services	26
+2021,Level 1,Financial and Insurance Services	27
+2021,Level 1,Health Care and Social Assistance	25
+2021,Level 1,Information Media and Telecommunications	26
+2021,Level 1,Manufacturing	28
+2021,Level 1,Mining	26
+2021,Level 1,Professional Scientific Technical Administrative and Support Services	26
+2021,Level 1,Public Order Safety and Regulatory Services	26
+2021,Level 1,Rental Hiring and Real Estate Services	27
+2021,Level 1,Retail Trade and Accommodation	28
+2021,Level 1,Transport Postal and Warehousing	26
+2021,Level 1,Wholesale Trade	28
+2021,Level 3,Accommodation and Food Services	28
+2021,Level 3,Administrative and Support Services	26
+2021,Level 3,Agriculture Forestry and Fishing Support Services and Hunting	24
+2021,Level 3,Arts and Recreation Services	25
+2021,Level 3,Auxiliary Finance and Insurance Services	18
+2021,Level 3,Basic Chemical and Chemical Product Manufacturing	28
+2021,Level 3,Beverage and Tobacco Product Manufacturing	26
+2021,Level 3,Building Construction	26
+2021,Level 3,Construction Services	26
+2021,Level 3,Dairy Cattle Farming	23
+2021,Level 3,Electricity and Gas Supply	24
+2021,Level 3,Fabricated Metal Product Manufacturing	28
+2021,Level 3,Finance	25
+2021,Level 3,Fishing and Aquaculture	23
+2021,Level 3,Food Product Manufacturing	28
+2021,Level 3,Forestry and Logging	24
+2021,Level 3,Furniture and Other Manufacturing	28
+2021,Level 3,Heavy and Civil Engineering Construction	26
+2021,Level 3,Horticulture and Fruit Growing	23
+2021,Level 3,Information Media Services	23
+2021,Level 3,Insurance	20
+2021,Level 3,Machinery and Other Equipment Manufacturing	28
+2021,Level 3,Motor Vehicle and Motor Vehicle Parts and Fuel Retailing	28
+2021,Level 3,Non-Metallic Mineral Product Manufacturing	25
+2021,Level 3,Other Services	25
+2021,Level 3,Other Store-Based Retailing and Non Store Retailing	28
+2021,Level 3,Petroleum and Coal Product Manufacturing	22
+2021,Level 3,Polymer Product and Rubber Product Manufacturing	28
+2021,Level 3,Postal Courier Transport Support and Warehousing Services	26
+2021,Level 3,Poultry Deer and Other Livestock Farming	23
+2021,Level 3,Primary Metal and Metal Product Manufacturing	19
+2021,Level 3,Printing	27
+2021,Level 3,Professional Scientific and Technical Services	26
+2021,Level 3,Property Operators and Real Estate Services	27
+2021,Level 3,Public Order Safety and Regulatory Services	26
+2021,Level 3,Pulp Paper and Converted Paper Product Manufacturing	23
+2021,Level 3,Rail Water Air and Other Transport	26
+2021,Level 3,Rental and Hiring Services (except Real Estate)	27
+2021,Level 3,Road Transport	26
+2021,Level 3,Sheep Beef Cattle and Grain Farming	23
+2021,Level 3,Supermarket Grocery Stores and Specialised Food Retailing	28
+2021,Level 3,Telecommunications Internet and Library Services	23
+2021,Level 3,Textile Leather Clothing and Footwear Manufacturing	28
+2021,Level 3,Transport Equipment Manufacturing	28
+2021,Level 3,Water Sewerage Drainage and Waste Services	24
+2021,Level 3,Wood Product Manufacturing	28
+2021,Level 4,Accommodation	28
+2021,Level 4,Adult Community and Other Education	25
+2021,Level 4,Advertising Market Research and Management Services	26
+2021,Level 4,Auxiliary Finance and Insurance Services	18
+2021,Level 4,Banking and Financing	25
+2021,Level 4,Basic Chemical and Basic Polymer Manufacturing	24
+2021,Level 4,Basic Material Wholesaling	28
+2021,Level 4,Beverage and Tobacco Product Manufacturing	26
+2021,Level 4,Building Cleaning Pest Control and Other Support Services	26
+2021,Level 4,Civil Professional and Other Interest Groups	25
+2021,Level 4,Clothing Knitted Products and Footwear Manufacturing	26
+2021,Level 4,Commission Based Wholesaling	25
+2021,Level 4,Computer System Design and Related Services	26
+2021,Level 4,Construction Services	26
+2021,Level 4,Dairy Cattle Farming	23
+2021,Level 4,Department Stores	25
+2021,Level 4,Electronic and Electrical Equipment Manufacturing	28
+2021,Level 4,Employment and Other Administrative Services	26
+2021,Level 4,Fabricated Metal Product Manufacturing	28
+2021,Level 4,Fertiliser and Pesticide Manufacturing	22
+2021,Level 4,Financial Asset Investing	27
+2021,Level 4,Food and Beverage Services	28
+2021,Level 4,Forestry and Logging	24
+2021,Level 4,Furniture Electrical and Hardware Retailing	28
+2021,Level 4,Furniture Manufacturing	27
+2021,Level 4,Gambling Activities	17
+2021,Level 4,Grocery Liquor and Tobacco Product Wholesaling	28
+2021,Level 4,Health and General Insurance	19
+2021,Level 4,Heavy and Civil Engineering Construction	26
+2021,Level 4,Heritage and Artistic Activities	19
+2021,Level 4,Horticulture and Fruit Growing	23
+2021,Level 4,Hospitals	23
+2021,Level 4,Legal and Accounting Services	26
+2021,Level 4,Life Insurance	19
+2021,Level 4,Machinery Manufacturing	28
+2021,Level 4,Machinery and Equipment Wholesaling	28
+2021,Level 4,Medical and Other Health Care Services	23
+2021,Level 4,Motor Vehicle and Motor Vehicle Parts Wholesaling	25
+2021,Level 4,Non-Financial Asset Leasing	27
+2021,Level 4,Non-Metallic Mineral Product Manufacturing	25
+2021,Level 4,Non-Residential Building Construction	26
+2021,Level 4,Non-Residential Property Operation	24
+2021,Level 4,Non-Store and Commission Based Retailing	28
+2021,Level 4,Other Goods Wholesaling	28
+2021,Level 4,Other Manufacturing	27
+2021,Level 4,Personal Care Funeral and Other Personal Services	25
+2021,Level 4,Petroleum and Coal Product Manufacturing	22
+2021,Level 4,Pharmaceutical Cleaning and Other Chemical Manufacturing	26
+2021,Level 4,Pharmaceutical and Other Store Based Retailing	27
+2021,Level 4,Polymer Product and Rubber Product Manufacturing	28
+2021,Level 4,Postal and Courier Pick Up and Delivery Services	21
+2021,Level 4,Poultry Deer and Other Livestock Farming	23
+2021,Level 4,Preschool Education	25
+2021,Level 4,Primary Metal and Metal Product Manufacturing	19
+2021,Level 4,Printing	27
+2021,Level 4,Public Order Safety and Regulatory Services	26
+2021,Level 4,Pulp Paper and Converted Paper Product Manufacturing	23
+2021,Level 4,Real Estate Services	27
+2021,Level 4,Recreational Clothing Footwear and Personal Accessory Retailing	26
+2021,Level 4,Rental and Hiring Services (except Real Estate)	27
+2021,Level 4,Repair and Maintenance	25
+2021,Level 4,Residential Building Construction	26
+2021,Level 4,Residential Care Services and Social Assistance	25
+2021,Level 4,Road Transport	26
+2021,Level 4,School Education	23
+2021,Level 4,Scientific Architectural and Engineering Services	26
+2021,Level 4,Sheep Beef Cattle and Grain Farming	23
+2021,Level 4,Sport and Recreation Activities	24
+2021,Level 4,Tertiary Education	23
+2021,Level 4,Textile and Leather Manufacturing	26
+2021,Level 4,Transport Equipment Manufacturing	28
+2021,Level 4,Transport Support Services	25
+2021,Level 4,Travel Agency and Tour Arrangement Services	26
+2021,Level 4,Veterinary and Other Professional Services	26
+2021,Level 4,Warehousing and Storage Services	22
+2021,Level 4,Wood Product Manufacturing	28

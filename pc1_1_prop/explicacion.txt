@@ -1,0 +1,6 @@
+Frecuencia de 
+    - Year
+    - Industry_aggregation_NZSIOC
+    - Industry_name_NZSIOC
+
+Se filtra la consulta, solo para los del anho 2021
