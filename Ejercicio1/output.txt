@@ -6,7 +6,6 @@ Belgium	8
 Bermuda	1
 Brazil	5
 Bulgaria	1
-CO	1
 Canada	76
 Cayman Isls	1
 China	1
@@ -54,4 +53,4 @@ Turkey	6
 Ukraine	1
 United Arab Emirates	6
 United Kingdom	100
-United States	462
+United States	463
