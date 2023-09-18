@@ -23,12 +23,10 @@ public class SalesCountryDriver {
             String[] SingleCountryData = valueString.split(",");
             
             // Para no utilizar los encabezados
-            if( (!"Industry_aggregation_NZSIOC".equals(SingleCountryData[1])) &&  
-                ("2021".equals(SingleCountryData[0])) ) {
+            if( !"item_type".equals(SingleCountryData[0]) ) {
                 // Nuestras llaves son los paises
-                output.collect(new Text(SingleCountryData[0] + "," + SingleCountryData[1] + "," + SingleCountryData[3]), one);
+                output.collect(new Text(SingleCountryData[3] + ", " + SingleCountryData[0] + ", " + SingleCountryData[8]), one);
             }
-            
         }
     }
     

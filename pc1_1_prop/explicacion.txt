@@ -1,6 +1,6 @@
-Frecuencia de 
-    - Year
-    - Industry_aggregation_NZSIOC
-    - Industry_name_NZSIOC
-
-Se filtra la consulta, solo para los del anho 2021
+Se obtiene la frecuencia 3 campos distintos, en este caso
+se busca la cantidad de ventas por país, artista y tipo
+de producto comprado:
+    - country
+    - item_type
+    - artist_name

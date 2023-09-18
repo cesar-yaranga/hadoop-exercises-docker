@@ -6,8 +6,6 @@ sudo docker compose up
 # carpeta temporal.
 sudo docker cp SalesCountryDriver.java namenode:/tmp/
 sudo docker cp ../mi_archivo.csv namenode:/tmp/
-
-# Nos vamos al terminal de namenode
 sudo docker exec -it namenode bash
 
 # Seteamos HADOOP_CLASSPATH
