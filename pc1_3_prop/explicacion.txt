@@ -1,4 +1,5 @@
-Se ordeno de forma ascendente las compras, y se muestran los siguientes campos:
-- country
-- artist_name
-- item_type
+Se filtraron las fechas entre "09/10/20 00:53" y "09/24/20 05:18". Se ordeno de forma 
+ascendente las compras, y se muestran los siguientes campos:
+    - country
+    - artist_name
+    - item_type

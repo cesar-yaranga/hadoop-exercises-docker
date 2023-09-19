@@ -116,25 +116,45 @@ public class SalesCountryDriver {
             String[] SingleCountryData = valueString.split(",");
             
             String utc_date = "";
+
+            long ms;
+            long msMenor;
+            long msMayor;
             
             // Para no utilizar los encabezados
             if(!"item_type".equals(SingleCountryData[0])) {
-                // utc_date = textUtc_date.toString();
-
-                // if(!"item_type".equals(SingleCountryData[0])) {
-                    
-                // }
-
                 
-                textUtc_date = new Text(SingleCountryData[1]);
-                textCountry = new Text(SingleCountryData[3]);
-                textArtist_name = new Text(SingleCountryData[8]);
-                textItem_type = new Text(SingleCountryData[0]);
+                try {
+                    Date fechaRegistro = new SimpleDateFormat("MM/dd/yy HH:mm").parse(SingleCountryData[1]);
+                    Date fechaMenor = new SimpleDateFormat("MM/dd/yy HH:mm").parse("09/10/20 00:53");
+                    Date fechaMayor = new SimpleDateFormat("MM/dd/yy HH:mm").parse("09/24/20 05:18");
+                            
+                    ms =  fechaRegistro.getTime();
+                    msMenor =  fechaMenor.getTime();
+                    msMayor =  fechaMayor.getTime();
+    
+                    if ( (ms > msMenor) && (ms < msMayor) ) {
+                        // msMaximo = ms;
+    
+                        // utc_dateMaximo = utc_date;
+                        // countryMaximo = country;
+                        // artist_nameMaximo = artist_name;
+                        // item_typeMaximo = item_type;
 
-                customWritable = new CustomWritable(textUtc_date, textCountry, textArtist_name, textItem_type);
-                
-                // Nuestras llaves son los paises
-                output.collect(new Text(SingleCountryData[1]), customWritable);
+                        textUtc_date = new Text(SingleCountryData[1]);
+                        textCountry = new Text(SingleCountryData[3]);
+                        textArtist_name = new Text(SingleCountryData[8]);
+                        textItem_type = new Text(SingleCountryData[0]);
+        
+                        customWritable = new CustomWritable(textUtc_date, textCountry, textArtist_name, textItem_type);
+                        
+                        // Nuestras llaves son los paises
+                        output.collect(new Text(SingleCountryData[1]), customWritable);
+                    }
+    
+                } catch (ParseException ex) {
+                    Logger.getLogger(SalesCountryReducer.class.getName()).log(Level.SEVERE, null, ex);
+                }
             }
         }
     }
