@@ -1,0 +1,11 @@
+En esta consulta se implican 4 campos:
+    - utc_date (Extraemos solo el anho).
+    - artist_name
+    - item_price
+    - amount_paid
+
+Consultaremos por anho de cada artista:
+    ganancia = amount_paid - item_price
+
+key: anho, artist_name
+value: ganancia = amount_paid - item_price
