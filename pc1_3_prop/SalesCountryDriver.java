@@ -21,6 +21,7 @@ public class SalesCountryDriver {
         // nombre
         // creacionCuenta
         // ultimoLogueo
+        // testeo
         private Text nombre;
         private Text creacionCuenta;
         private Text ultimoLogueo;
