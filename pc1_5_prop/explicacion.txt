@@ -1,0 +1,2 @@
+Se calcula la media geometrica de todas las ventas
+de cada uno de los artistas.

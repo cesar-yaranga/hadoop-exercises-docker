@@ -31,3 +31,8 @@ hadoop jar SalesCountryDriver.jar SalesCountryDriver /Input/mi_archivo.csv /Outp
 hadoop fs -cat /Output/* > output.txt
 
 sudo docker cp namenode:/output.txt output.txt
+
+
+
+sudo docker cp SalesCountryDriver.java namenode:/tmp/
+sudo docker exec -it namenode bash
