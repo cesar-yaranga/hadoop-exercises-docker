@@ -107,7 +107,7 @@ public class SalesCountryDriver {
     
     public static class SalesCountryReducer extends MapReduceBase implements Reducer<Text, IntWritable, Text, IntWritable> {
         public void reduce(Text t_key, Iterator<IntWritable> values, OutputCollector<Text, IntWritable> output, Reporter reporter) throws IOException {
-           
+
             Text key = t_key;
             int frequencyForCountry = 0;
             while (values.hasNext()) {
