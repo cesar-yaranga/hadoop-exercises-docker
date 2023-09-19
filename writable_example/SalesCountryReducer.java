@@ -14,7 +14,7 @@ public class SalesCountryReducer extends MapReduceBase implements Reducer<Text, 
 
     @Override
     public void reduce(Text t_key, Iterator<CustomWritable> values, OutputCollector<Text, CustomWritable> output, Reporter reporter) throws IOException {
-       
+
         Text key = t_key;
 
         String nombre = "";
@@ -60,17 +60,15 @@ public class SalesCountryReducer extends MapReduceBase implements Reducer<Text, 
         output.collect(key, new CustomWritable(new Text(nombreMaximo) , new Text(creacionCuentaMaximo), new Text(ultimoLogueoMaximo)));
         
     }
-    
+
     public int maximoValor(int array[]){
         
         List<Integer> list = new ArrayList<Integer>();
         
         for (int i = 0; i < array.length; i++) {
-          list.add(array[i]);
+            list.add(array[i]);
         }
         
         return Collections.max(list);
     }
-    
-
 }

@@ -11,10 +11,7 @@ public class SalesCountryDriver {
         job_conf.setJobName("SalePerCountry");
         // Specify data type of output key and value
         job_conf.setOutputKeyClass(Text.class);
-        
-        //CUSTOM WRITABLE
         job_conf.setOutputValueClass(CustomWritable.class);
-
         // Specify names of Mapper and Reducer Class
         job_conf.setMapperClass(SalesCountry.SalesMapper.class);
         job_conf.setReducerClass(SalesCountry.SalesCountryReducer.class);

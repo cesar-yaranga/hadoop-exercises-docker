@@ -1,4 +1,185 @@
-Product	1
-Product1	847
-Product2	136
-Product3	15
+Afghanistan	09/25/20 23:59	Afghanistan	Mihai Popoviciu	digital albums
+Albania	10/01/20 18:02	Albania	freetousesounds	physical items
+Algeria	10/02/20 13:44	Algeria	Julien Earle	digital albums
+Andorra	10/02/20 13:46	Andorra	AJJ	physical items
+Antigua and Barbuda	09/25/20 19:45	Antigua and Barbuda	Andrew Ashong  Kaidi Tatham	digital albums
+Argentina	10/02/20 14:00	Argentina	TOBACCO	digital albums
+Armenia	10/02/20 08:10	Armenia	Sebastian Mullaert with musicians of the Tonhalle Orchester Zrich	digital albums
+Aruba	10/02/20 11:37	Aruba	Chris Dave  Daniel Crawford	digital albums
+Australia	10/02/20 14:03	Australia	w i n t e r q u i l t	digital albums
+Austria	10/02/20 14:03	Austria	Thing	digital tracks
+Azerbaijan	09/30/20 09:11	Azerbaijan	mudeth	digital albums
+Bahamas	10/01/20 21:58	Bahamas	AMYRA	digital albums
+Bahrain	10/02/20 13:18	Bahrain	Von Blut	digital tracks
+Bangladesh	10/02/20 12:31	Bangladesh	Infraction	digital tracks
+Barbados	10/01/20 18:57	Barbados	Darren Korb	digital albums
+Belarus	10/02/20 13:07	Belarus	Greg Puciato	digital albums
+Belgium	10/02/20 14:03	Belgium	Dirk Serries	digital albums
+Belize	09/19/20 21:09	Belize	Madness MUV	digital albums
+Bermuda	09/30/20 22:19	Bermuda	Bucketheadland	physical items
+Bolivia	10/02/20 12:36	Bolivia	Mbius	digital albums
+Bosnia and Herzegovina	10/01/20 20:46	Bosnia and Herzegovina	Alek Darson	digital albums
+Botswana	09/30/20 05:08	Botswana	Reagan Ruler	digital tracks
+Brazil	10/02/20 14:03	Brazil	The Vision featuring Andreya Triana  Ben Westbeech	digital tracks
+Brunei Darussalam	09/30/20 00:11	Brunei Darussalam	Major League	digital albums
+Bulgaria	10/02/20 13:59	Bulgaria	Heaven 17	digital tracks
+Burundi	09/19/20 22:13	Burundi	Di Laif	digital tracks
+C2	10/02/20 13:57	C2	Black Phillip	digital albums
+CW	10/02/20 12:57	CW	Modvs	digital albums
+Cambodia	10/02/20 13:37	Cambodia	Tourniquet	digital tracks
+Cameroon	09/12/20 21:48	Cameroon	Mammal Hands	digital tracks
+Canada	10/02/20 14:03	Canada	Jenn Grant	digital albums
+Cayman Islands	10/02/20 13:40	Cayman Islands	Various Artists Working to Avert the Collapse of American Democracy	digital albums
+Central African Republic	09/17/20 20:38	Central African Republic	Traceless	digital albums
+Chile	10/02/20 13:52	Chile	SunPalace	digital albums
+China	10/02/20 13:51	China	Ritz	digital albums
+Colombia	10/02/20 13:40	Colombia	Sirus Hood Manda Moor	digital albums
+Cook Islands	09/21/20 01:53	Cook Islands	Tim Maia	digital albums
+Costa Rica	10/02/20 13:25	Costa Rica	VA	digital albums
+Cote D'ivoire	09/20/20 09:56	Cote D'ivoire	William McCarthy	digital albums
+Croatia	10/02/20 13:50	Croatia	Angel Dlite	digital tracks
+Cyprus	10/02/20 14:02	Cyprus	Intuitcore	digital albums
+Czech Republic	10/02/20 14:01	Czech Republic	Warriyo	digital tracks
+Denmark	10/02/20 13:56	Denmark	Silkworm	digital albums
+Dominica	09/25/20 13:59	Dominica	Dj Puffy	digital albums
+Dominican Republic	10/02/20 13:04	Dominican Republic	Food House	digital tracks
+Ecuador	10/02/20 06:19	Ecuador	Schron	digital tracks
+Egypt	10/02/20 13:51	Egypt	Praed Orchestra	digital albums
+El Salvador	10/02/20 13:59	El Salvador	Nebula Orionis	digital tracks
+Estonia	10/02/20 14:01	Estonia	Marc Ribots Ceramic Dog	digital albums
+Ethiopia	10/02/20 13:47	Ethiopia	business casual	physical items
+Faroe Islands	10/01/20 18:19	Faroe Islands	Sabaton	digital albums
+Fiji	10/01/20 15:28	Fiji	THE NEW RAEMON	digital albums
+Finland	10/02/20 14:02	Finland	Remix by Matt Cubero	digital tracks
+France	10/02/20 14:03	France	Afem Syko	digital tracks
+French Guiana	10/01/20 22:00	French Guiana	FlexFab	digital tracks
+French Polynesia	10/02/20 01:23	French Polynesia	Rosie Bra	digital tracks
+Gabon	09/30/20 13:45	Gabon	Clovis Nicolas	digital albums
+Georgia	10/02/20 13:38	Georgia	Fyrone  Den Haas	digital tracks
+Germany	10/02/20 14:03	Germany	Radikal Kuss	digital tracks
+Ghana	09/23/20 23:22	Ghana	Andre 3000 Tyler The Creator DJ Critical Hype	digital albums
+Gibraltar	10/02/20 10:57	Gibraltar	The Whole Truth	digital tracks
+Greece	10/02/20 14:02	Greece	The November 3	digital albums
+Greenland	10/02/20 12:45	Greenland	Barbara Marciniak	digital tracks
+Grenada	09/22/20 02:10	Grenada	Madness MUV	digital albums
+Guadeloupe	10/02/20 12:52	Guadeloupe	kokone suzuki	digital tracks
+Guam	10/02/20 12:23	Guam	Sydonia Recordings	digital albums
+Guatemala	10/01/20 22:51	Guatemala	Rebeca Lane	digital tracks
+Guernsey	10/02/20 11:35	Guernsey	Grant Sharkey	digital albums
+Guyana	09/23/20 16:40	Guyana	Madness MUV	digital tracks
+HY	09/25/20 11:44	HY	Field Mouse	digital tracks
+Heard Island and Mcdonald Islands	09/10/20 08:18	Heard Island and Mcdonald Islands	ADULT  Planet B	digital tracks
+Honduras	10/02/20 04:27	Honduras	Ryan Hemsworth	digital albums
+Hong Kong	10/02/20 13:46	Hong Kong	Neonlight State of Mind	digital albums
+Hungary	10/02/20 13:53	Hungary	Lazarvs	digital albums
+Iceland	10/02/20 13:56	Iceland	Hainbach	digital albums
+India	10/02/20 14:02	India	Derain	digital tracks
+Indonesia	10/02/20 13:00	Indonesia	Ryan Hemsworth	digital albums
+Ireland	10/02/20 14:03	Ireland	Various Artists Working to Avert the Collapse of American Democracy	digital albums
+Isle of Man	10/02/20 13:02	Isle of Man	Parris	digital tracks
+Israel	10/02/20 14:03	Israel	Group Modular	digital albums
+Italy	10/02/20 14:02	Italy	Julia Kent	digital albums
+Jamaica	10/02/20 11:46	Jamaica	NNAMD	digital albums
+Japan	10/02/20 14:03	Japan	Hen Ogledd	digital albums
+Jersey	10/02/20 12:16	Jersey	AMC	digital tracks
+Jordan	10/02/20 06:43	Jordan	Marcus D	digital albums
+Kazakhstan	10/02/20 10:18	Kazakhstan	Sofiane Saidi  Mazalda	digital tracks
+Kenya	10/02/20 13:39	Kenya	Jen Charlton	digital albums
+Kuwait	10/01/20 07:16	Kuwait	Eirik Suhrke	digital albums
+Kyrgyzstan	10/01/20 16:20	Kyrgyzstan	Tar Of	digital tracks
+Lao People's Democratic Republic	10/01/20 00:37	Lao People's Democratic Republic	MorganBeatz	digital albums
+Latvia	10/02/20 13:55	Latvia	Waterflower	digital albums
+Lebanon	10/02/20 11:52	Lebanon	Sortna	digital tracks
+Lesotho	09/30/20 20:27	Lesotho	VICTOR DUBA	digital tracks
+Liberia	10/01/20 10:21	Liberia	Sovereign Grace Music	digital tracks
+Libyan Arab Jamahiriya	09/18/20 01:17	Libyan Arab Jamahiriya	Various Artists	digital albums
+Liechtenstein	10/02/20 13:49	Liechtenstein	Compiled by DJ Otto	digital albums
+Lithuania	10/02/20 13:47	Lithuania	30drop	digital albums
+Luxembourg	10/02/20 13:26	Luxembourg	ARGUS	digital albums
+ME	10/02/20 09:54	ME	Basic Spirit	digital albums
+Macao	10/02/20 13:33	Macao	Various Artists	digital albums
+Macedonia	10/02/20 11:40	Macedonia	Saso Popovski Trio	digital albums
+Malawi	09/27/20 14:21	Malawi	Pete Rock	digital tracks
+Malaysia	10/02/20 13:09	Malaysia	McIntosh Woodruff	digital albums
+Maldives	09/20/20 13:29	Maldives	Snails House	digital albums
+Mali	09/25/20 20:04	Mali	Paul Demer	digital albums
+Malta	10/02/20 12:12	Malta	Ozric Tentacles	digital albums
+Martinique	10/01/20 00:43	Martinique	Acapella Tools	digital tracks
+Mauritius	10/02/20 12:50	Mauritius	Miles From Mars	digital albums
+Mayotte	09/23/20 21:25	Mayotte	Bonobo  Totally Enormous Extinct Dinosaurs	digital albums
+Mexico	10/02/20 14:00	Mexico	Accidents	digital albums
+Moldova	10/02/20 09:37	Moldova	Shonky	digital tracks
+Monaco	10/02/20 11:24	Monaco	Barbara Marciniak	digital tracks
+Mongolia	09/26/20 04:47	Mongolia	SANSIBAR	digital tracks
+Morocco	10/02/20 12:37	Morocco	Day 7	digital tracks
+Mozambique	09/28/20 08:02	Mozambique	Tgui	digital tracks
+Myanmar	09/11/20 04:23	Myanmar	Death	digital albums
+Namibia	10/01/20 09:39	Namibia	Zenon Records	digital albums
+Nepal	09/25/20 13:28	Nepal	Sounds of Isha	digital albums
+Netherlands	10/02/20 14:03	Netherlands	Marc Ribot	digital albums
+Netherlands Antilles	09/22/20 12:39	Netherlands Antilles	Midnight Danger	digital tracks
+New Caledonia	10/02/20 05:13	New Caledonia	Sequentia Legenda	digital albums
+New Zealand	10/02/20 14:03	New Zealand	Various Artists Working to Avert the Collapse of American Democracy	digital albums
+Nicaragua	10/02/20 13:15	Nicaragua	T Jacques	digital tracks
+Nigeria	10/02/20 02:50	Nigeria	Almanacs	digital albums
+Norfolk Island	09/18/20 05:40	Norfolk Island	Jodie Williams	digital tracks
+Norway	10/02/20 14:03	Norway	Nolan Potter	digital albums
+Oman	10/02/20 13:54	Oman	Mirror  Me	digital albums
+Pakistan	10/02/20 08:29	Pakistan	DEADLIFE	digital tracks
+Palau	09/14/20 19:34	Palau	Vacation Room Studio	digital tracks
+Palestinian Territory	09/21/20 22:42	Palestinian Territory	Drexler	digital albums
+Panama	10/02/20 10:56	Panama	Chancha Via Circuito	digital tracks
+Papua New Guinea	09/28/20 07:08	Papua New Guinea	Vacation Room Studio	digital tracks
+Paraguay	10/02/20 07:28	Paraguay	Raffaele Attanasio	digital albums
+Peru	10/02/20 12:22	Peru	Dark Domminator	digital albums
+Philippines	10/02/20 13:58	Philippines	Various Artists	digital albums
+Poland	10/02/20 14:02	Poland	Free Whenever	digital albums
+Portugal	10/02/20 14:00	Portugal	GB	digital albums
+Puerto Rico	10/02/20 13:20	Puerto Rico	Hainbach	digital albums
+Qatar	09/30/20 22:48	Qatar	Profound Nation KaySoul	digital tracks
+Republic of Korea	10/02/20 13:57	Republic of Korea	Feryquitous	digital albums
+Reunion	10/02/20 13:09	Reunion	Delmighty Sounds	digital tracks
+Romania	10/02/20 14:02	Romania	hTT	digital tracks
+Russian Federation	10/02/20 14:00	Russian Federation	MechPoet	digital albums
+Rwanda	09/27/20 21:56	Rwanda	Ian Kamau	digital albums
+Saint Kitts and Nevis	09/16/20 13:46	Saint Kitts and Nevis	Jeremiah Pena	digital albums
+Saint Lucia	09/28/20 00:26	Saint Lucia	Tom Cosm	digital albums
+Saint Vincent and The Grenadines	09/24/20 14:28	Saint Vincent and The Grenadines	Dj Puffy	digital albums
+Saudi Arabia	10/02/20 13:57	Saudi Arabia	Bartees Strange	digital albums
+Senegal	10/01/20 20:06	Senegal	Big Ghost Ltd	digital tracks
+Serbia	10/02/20 13:28	Serbia	Julien Earle	digital albums
+Seychelles	09/22/20 15:27	Seychelles	Black Elephant	digital albums
+Singapore	10/02/20 13:49	Singapore	WOODS	digital albums
+Slovakia	10/02/20 13:40	Slovakia	Ayreon	digital albums
+Slovenia	10/02/20 13:18	Slovenia	ALSO  Katharina Ernst  Martin Siewert	digital albums
+Somalia	09/25/20 12:14	Somalia	318tae	digital tracks
+South Africa	10/02/20 13:54	South Africa	TECHNICAL ITCH	digital albums
+Spain	10/02/20 14:02	Spain	DJ Sotofett	physical items
+Sri Lanka	10/02/20 08:51	Sri Lanka	The Bhaktas	digital tracks
+Swaziland	10/02/20 12:03	Swaziland	Faycul	digital albums
+Sweden	10/02/20 14:02	Sweden	hand model	digital albums
+Switzerland	10/02/20 14:02	Switzerland	fratiiro	digital tracks
+Taiwan	10/02/20 13:34	Taiwan	REDALiCE vs USAO	digital tracks
+Tanzania	09/16/20 13:23	Tanzania	Dj Puffy	digital albums
+Thailand	10/02/20 14:03	Thailand	AMBIANCE	digital tracks
+Togo	09/14/20 06:32	Togo	TEKLUN	digital tracks
+Trinidad and Tobago	10/02/20 12:03	Trinidad and Tobago	Michael FK	digital tracks
+Tunisia	10/02/20 07:48	Tunisia	Two Minutes To Late Night	digital albums
+Turkey	10/02/20 13:53	Turkey	Razor Inc	digital albums
+Turks and Caicos Islands	09/14/20 21:55	Turks and Caicos Islands	Lady Livi	digital tracks
+U.S. Virgin Islands	09/30/20 01:03	U.S. Virgin Islands	SounEmot	digital tracks
+Uganda	10/01/20 19:42	Uganda	Zazim Soundsystem	digital tracks
+Ukraine	10/02/20 14:01	Ukraine	Manuel Darquart	digital tracks
+United Arab Emirates	10/02/20 13:42	United Arab Emirates	Bob Reynolds	digital albums
+United Kingdom	10/02/20 14:03	United Kingdom	Hole Dweller	digital albums
+United States	10/02/20 14:03	United States	Two Minutes To Late Night	digital albums
+Uruguay	10/02/20 12:53	Uruguay	El Viento	digital tracks
+Uzbekistan	10/01/20 12:24	Uzbekistan	Cigarettes for Breakfast	digital tracks
+Vanuatu	09/20/20 11:03	Vanuatu	Triumphant Quartet	digital tracks
+Venezuela	10/02/20 11:16	Venezuela	Mega Drive	digital albums
+Viet Nam	10/02/20 12:15	Viet Nam	iota	digital albums
+Wallis and Futuna	09/14/20 17:07	Wallis and Futuna	Amenra	digital albums
+XK	10/02/20 13:15	XK	Anders Hellberg Knay Infinity Antonio Vzquez NFEREE	digital tracks
+Zambia	10/01/20 13:51	Zambia	Arrested Development	digital albums
+Zimbabwe	09/18/20 18:15	Zimbabwe	Acapella Tools	digital tracks
+Åland Islands	09/24/20 02:18	Åland Islands	Bucketheadland	digital albums
