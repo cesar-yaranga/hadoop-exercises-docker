@@ -1,0 +1,4 @@
+Se ordeno de forma ascendente las compras, y se muestran los siguientes campos:
+- country
+- artist_name
+- item_type

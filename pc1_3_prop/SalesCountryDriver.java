@@ -96,7 +96,8 @@ public class SalesCountryDriver {
 
         @Override
         public String toString() {
-            return utc_date.toString() + "\t" + country.toString() + "\t" + artist_name.toString() + "\t" + item_type.toString();
+            // return utc_date.toString() + "\t" + country.toString() + "\t" + artist_name.toString() + "\t" + item_type.toString();
+            return country.toString() + " - " + artist_name.toString() + " - " + item_type.toString();
         }
     }
 
@@ -114,8 +115,17 @@ public class SalesCountryDriver {
             String valueString = value.toString();
             String[] SingleCountryData = valueString.split(",");
             
+            String utc_date = "";
+            
             // Para no utilizar los encabezados
             if(!"item_type".equals(SingleCountryData[0])) {
+                // utc_date = textUtc_date.toString();
+
+                // if(!"item_type".equals(SingleCountryData[0])) {
+                    
+                // }
+
+                
                 textUtc_date = new Text(SingleCountryData[1]);
                 textCountry = new Text(SingleCountryData[3]);
                 textArtist_name = new Text(SingleCountryData[8]);
@@ -124,7 +134,7 @@ public class SalesCountryDriver {
                 customWritable = new CustomWritable(textUtc_date, textCountry, textArtist_name, textItem_type);
                 
                 // Nuestras llaves son los paises
-                output.collect(new Text(SingleCountryData[3]), customWritable);
+                output.collect(new Text(SingleCountryData[1]), customWritable);
             }
         }
     }
@@ -181,7 +191,8 @@ public class SalesCountryDriver {
                 }
             }
 
-            output.collect(key, new CustomWritable(new Text(utc_dateMaximo), new Text(countryMaximo), new Text(artist_nameMaximo), new Text(item_typeMaximo)));
+            // output.collect(key, new CustomWritable(new Text(utc_dateMaximo), new Text(countryMaximo), new Text(artist_nameMaximo), new Text(item_typeMaximo)));
+            output.collect(key, new CustomWritable(new Text(utc_date), new Text(country), new Text(artist_name), new Text(item_type)));
         }
     }
 
