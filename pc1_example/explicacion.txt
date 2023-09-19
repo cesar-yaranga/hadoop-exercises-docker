@@ -1,0 +1,6 @@
+Se obtiene la frecuencia 3 campos distintos, en este caso
+se busca la cantidad de ventas por país, artista y tipo
+de producto comprado:
+    - country
+    - item_type
+    - artist_name

@@ -6,29 +6,25 @@ import org.apache.hadoop.mapred.*;
 import java.io.IOException;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
-import org.apache.hadoop.io.Text;
 
 import java.util.*;
 
 public class SalesCountryDriver {
 
     public static class SalesMapper extends MapReduceBase implements Mapper<LongWritable, Text, Text, IntWritable> {
-
-        // Para el conteo
-        private final static IntWritable one = new IntWritable(1);
-            
+        //private final static IntWritable one = new IntWritable(1);
+        IntWritable numero;
+        // Text txttotal = new Text("");
         public void map(LongWritable key, Text value, OutputCollector<Text, IntWritable> output, Reporter reporter) throws IOException {
-            
             String valueString = value.toString();
             String[] SingleCountryData = valueString.split(",");
-            
-            // Para no utilizar los encabezados
-            if(!"Industry_aggregation_NZSIOC".equals(SingleCountryData[1])) {
-                
-                // Nuestras llaves son los paises
-                output.collect(new Text(SingleCountryData[1]), one);
+            if( !"item_type".equals(SingleCountryData[0]) ){
+                numero = new IntWritable(Integer.parseInt(SingleCountryData[7]));
+            }else{
+                numero = new IntWritable(Integer.MAX_VALUE);
             }
-            
+            output.collect(new Text(SingleCountryData[3]), numero);
+            //output.collect(new Text(SingleCountryData[1] + SingleCountryData[3]), numero);
         }
     }
     
@@ -37,15 +33,15 @@ public class SalesCountryDriver {
         public void reduce(Text t_key, Iterator<IntWritable> values, OutputCollector<Text, IntWritable> output, Reporter reporter) throws IOException {
            
             Text key = t_key;
-            int frequencyForCountry = 0;
-            while (values.hasNext()) {
-    
+            //int frequencyForCountry = 0;
+            int menor_tipo = Integer.MAX_VALUE;//int mayor_tipo = Integer.MIN_VALUE;
+            while (values.hasNext()) {            
                 IntWritable value = (IntWritable) values.next();
-                
-                // Contamos la cantidad de datos por cada llave (pais)
-                frequencyForCountry += value.get();
+                if(value.get() < menor_tipo){//if(value.get() > mayor_tipo){
+                    menor_tipo = value.get();                        
+                }
             }
-            output.collect(key, new IntWritable(frequencyForCountry));
+            output.collect(key, new IntWritable(menor_tipo));
         }
     }
     

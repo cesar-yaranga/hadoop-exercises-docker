@@ -17,12 +17,12 @@ public class SalesCountryDriver {
         public void map(LongWritable key, Text value, OutputCollector<Text, IntWritable> output, Reporter reporter) throws IOException {
             String valueString = value.toString();
             String[] SingleCountryData = valueString.split(",");
-            if( (!"Price".equals(SingleCountryData[2])) && ("Product1".equals(SingleCountryData[1])) ){
-                numero = new IntWritable(Integer.parseInt(SingleCountryData[2]));
+            if( !"item_type".equals(SingleCountryData[0]) ){
+                numero = new IntWritable(Integer.parseInt(SingleCountryData[7]));
             }else{
                 numero = new IntWritable(Integer.MAX_VALUE);
             }
-            output.collect(txttotal, numero);
+            output.collect(SingleCountryData[3], numero);
             //output.collect(new Text(SingleCountryData[1] + SingleCountryData[3]), numero);
         }
     }

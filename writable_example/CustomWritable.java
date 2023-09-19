@@ -15,21 +15,16 @@ public class CustomWritable implements Writable {
     private Text creacionCuenta;
     private Text ultimoLogueo;
 
-
-
     public CustomWritable() {
         nombre = new Text();
         creacionCuenta = new Text();
         ultimoLogueo = new Text();
-
-
     }
 
     public CustomWritable(Text nombre, Text creacionCuenta, Text ultimoLogueo) {
         this.nombre = nombre;
         this.creacionCuenta = creacionCuenta;
         this.ultimoLogueo = ultimoLogueo;
-
     }
 
     public Text getNombre() {
