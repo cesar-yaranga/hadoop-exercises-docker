@@ -1,0 +1,5 @@
+Se realiza una consulta con el subtexto "the" sobre el campo artist_name:
+    - fecha
+    - country
+    - artist_name
+    - item_type
