@@ -1,0 +1,4 @@
+Encontrar los items que contengan la subcadena “White“:
+-country
+-item_description
+-item_price

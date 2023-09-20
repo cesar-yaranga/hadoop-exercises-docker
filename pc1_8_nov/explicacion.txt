@@ -1,0 +1,5 @@
+Mayor ganancia por cada tipo de item:
+-item_type
+-country
+-item_description, 
+-income(amount_paid - item_price)

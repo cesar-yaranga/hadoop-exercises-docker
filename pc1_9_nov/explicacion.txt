@@ -1,0 +1,5 @@
+Obtener el tipo de item que tiene el mayor precio de venta:
+-item type
+-country
+-amount_paid
+-artist_name

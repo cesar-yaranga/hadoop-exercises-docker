@@ -1,4 +1,4 @@
-Product	1
-Product1	847
-Product2	136
-Product3	15
+digital albums	Japan	DARUIN DEMO DARK AMBIENT	10000.0
+digital tracks	Australia	Body F10ating in the Zero Gravity Space	50000.0
+physical items	United States	full digital discography (5 releases)	5575.0
+

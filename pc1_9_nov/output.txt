@@ -1,4 +1,3 @@
-Product	1
-Product1	847
-Product2	136
-Product3	15
+digital albums	Japan	10000.0	 Masahiro Naoe
+digital tracks	Australia	50000.0	Camellia
+physical items	Japan	29760.0	love solfege
