@@ -1,106 +1,124 @@
-// package SalesCountry;
+//package SalesCountryDriver;
+
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.*;
 import org.apache.hadoop.mapred.*;
 
 import java.io.IOException;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-
-import org.apache.hadoop.io.LongWritable;
-import org.apache.hadoop.io.DoubleWritable;
+import org.apache.hadoop.io.Writable;
+import java.io.DataInput;
+import java.io.DataOutput;
+import org.apache.hadoop.io.Text;
 
 import java.util.*;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class SalesCountryDriver {
 
-    public static class SalesMapper extends MapReduceBase implements Mapper<LongWritable, Text, Text, DoubleWritable> {
-            
-        public void map(LongWritable key, Text value, OutputCollector<Text, DoubleWritable> output, Reporter reporter) throws IOException {
-            
+    public static class CustomWritable implements Writable {
+
+        private List<Double> itemPrices;
+
+        public CustomWritable() {
+            this.itemPrices = new ArrayList<>();
+        }
+
+        public void addItemPrice(double price) {
+            itemPrices.add(price);
+        }
+
+        public List<Double> getItemPrices() {
+            return itemPrices;
+        }
+
+        @Override
+        public void write(DataOutput out) throws IOException {
+            out.writeInt(itemPrices.size());
+            for (Double price : itemPrices) {
+                out.writeDouble(price);
+            }
+        }
+
+        @Override
+        public void readFields(DataInput in) throws IOException {
+            int size = in.readInt();
+            itemPrices.clear();
+            for (int i = 0; i < size; i++) {
+                itemPrices.add(in.readDouble());
+            }
+        }
+    }
+
+    public static class SalesMapper extends MapReduceBase implements Mapper<LongWritable, Text, Text, CustomWritable> {
+
+        @Override
+        public void map(LongWritable key, Text value, OutputCollector<Text, CustomWritable> output, Reporter reporter) throws IOException {
             String valueString = value.toString();
-            String[] SingleCountryData = valueString.split(",");
+            String[] fields = valueString.split(",");
 
-            Date date = new Date();
-            SimpleDateFormat dateFormat = new SimpleDateFormat();
-            String year = "";
-            double ganancia = 0;
-            DoubleWritable doubleGanancia = new DoubleWritable();
-
-            // Para no utilizar los encabezados
-            if(!"item_type".equals(SingleCountryData[0])) {
-
-                // Aqui lo que debo hacer es coger la fecha
-                // de la fecha extraigo el anho.
-
-                // utc_date, artist_name, item_price, amount_paid
-
-                // del anho concateno de esta forma:
-                // key: concat(anho + artist_name)
-                // value: ganancia = amount_paid - item_price
-
+            if (!"item_type".equals(fields[0])) {
+                String itemType = fields[0];
+                double amountPaid = Double.parseDouble(fields[7]);
+                // Validación para asegurarse de que itemPrice sea numérico
+                double itemPrice;
                 try {
-                    date = new SimpleDateFormat("MM/dd/yy HH:mm").parse(SingleCountryData[1]);
-                    dateFormat = new SimpleDateFormat("yyyy");
-                    year = dateFormat.format(date);
-
-                    // Ahora debo realizar la resta
-                    ganancia = Double.parseDouble(SingleCountryData[7]) - Double.parseDouble(SingleCountryData[4]);
-                    doubleGanancia = new DoubleWritable(ganancia);
-
-                } catch (ParseException ex) {
-                    Logger.getLogger(SalesCountryReducer.class.getName()).log(Level.SEVERE, null, ex);
+                    itemPrice = Double.parseDouble(fields[4]);
+                } catch (NumberFormatException e) {
+                    // Manejar el caso en el que itemPrice no sea numérico
+                    itemPrice = 0.0; // O asigna un valor predeterminado
                 }
 
-                // Nuestras llaves son utc_date y artist_name
-                output.collect(new Text(year + ", " + SingleCountryData[8]), doubleGanancia);
+                CustomWritable customWritable = new CustomWritable();
+                customWritable.addItemPrice(itemPrice);
+                output.collect(new Text(itemType), customWritable);
             }
-            
         }
     }
-    
 
-    public static class SalesCountryReducer extends MapReduceBase implements Reducer<Text, DoubleWritable, Text, DoubleWritable> {
-        public void reduce(Text t_key, Iterator<DoubleWritable> values, OutputCollector<Text, DoubleWritable> output, Reporter reporter) throws IOException {
-           
-            Text key = t_key;
-            double ganancia = 0;
+    public static class SalesCountryReducer extends MapReduceBase implements Reducer<Text, CustomWritable, Text, Text> {
+
+        @Override
+        public void reduce(Text key, Iterator<CustomWritable> values, OutputCollector<Text, Text> output, Reporter reporter) throws IOException {
+            Map<Double, Integer> priceCounts = new HashMap<>();
+
             while (values.hasNext()) {
-    
-                DoubleWritable value = (DoubleWritable) values.next();
-                
-                // Contamos la cantidad de datos por cada llave (pais)
-                ganancia += value.get();
+                CustomWritable value = values.next();
+                for (Double itemPrice : value.getItemPrices()) {
+                    int count = priceCounts.getOrDefault(itemPrice, 0);
+                    priceCounts.put(itemPrice, count + 1);
+                }
             }
-            output.collect(key, new DoubleWritable(ganancia));
+
+            double moda = 0;
+            int maxCount = 0;
+            for (Map.Entry<Double, Integer> entry : priceCounts.entrySet()) {
+                if (entry.getValue() > maxCount) {
+                    maxCount = entry.getValue();
+                    moda = entry.getKey();
+                }
+            }
+
+            String result = "Moda del precio: " + moda + ", Cantidad de veces que se repite: " + maxCount;
+            output.collect(key, new Text(result));
         }
     }
-    
 
     public static void main(String[] args) {
         JobClient my_client = new JobClient();
-        // Create a configuration object for the job
         JobConf job_conf = new JobConf(SalesCountryDriver.class);
-        // Set a name of the Job
-        job_conf.setJobName("SalePerCountry");
-        // Specify data type of output key and value
+
+        job_conf.setJobName("ModaCalculadora");
         job_conf.setOutputKeyClass(Text.class);
-        job_conf.setOutputValueClass(DoubleWritable.class);
-        // Specify names of Mapper and Reducer Class
+        job_conf.setOutputValueClass(CustomWritable.class);
         job_conf.setMapperClass(SalesMapper.class);
         job_conf.setReducerClass(SalesCountryReducer.class);
-        // Specify formats of the data type of Input and output
         job_conf.setInputFormat(TextInputFormat.class);
         job_conf.setOutputFormat(TextOutputFormat.class);
-        // Set input and output directories using command line arguments, 
-        //arg[0] = name of input directory on HDFS, and arg[1] =  name of output directory to be created to store the output file.
         FileInputFormat.setInputPaths(job_conf, new Path(args[0]));
         FileOutputFormat.setOutputPath(job_conf, new Path(args[1]));
+
         my_client.setConf(job_conf);
+
         try {
-            // Run the job 
             JobClient.runJob(job_conf);
         } catch (Exception e) {
             e.printStackTrace();
