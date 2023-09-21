@@ -1,0 +1,48 @@
+Argentina	Buenos Aires	1200.0
+Bahrain	Al Manamah	1200.0
+Bermuda	Hamilton	1200.0
+Bulgaria	Stara Zagora	1200.0
+Cayman Isls	 	1200.0
+China	Guangdong	1200.0
+Costa Rica	Heredia	1200.0
+Czech Republic	Prague	1200.0
+Czech Republic	Prague	1200.0
+Czech Republic	Prague	1200.0
+Dominican Republic	Distrito Nacional	1200.0
+Finland	Ita-Suomen Laani	1200.0
+Finland	Ita-Suomen Laani	1200.0
+Greece	Attiki	1200.0
+Guatemala	Guatemala	1200.0
+Hong Kong	 	1200.0
+Hungary	Budapest	1200.0
+Hungary	Budapest	1200.0
+Hungary	Budapest	1200.0
+Iceland	 	1200.0
+India	Andhra Pradesh	1200.0
+India	Andhra Pradesh	1200.0
+Israel	Tel Aviv	1200.0
+Japan	Tokyo	1200.0
+Japan	Tokyo	1200.0
+Jersey	 	1200.0
+Kuwait		1200.0
+Latvia	Riga	1200.0
+Luxembourg	Luxembourg	1200.0
+Malaysia	Kuala Lumpur	1200.0
+Malta	 	1200.0
+Malta	 	1200.0
+Mauritius	Black River	3600.0
+Moldova	Chisinau	1200.0
+Monaco	 	1200.0
+Monaco	 	1200.0
+Philippines	Bohol	1200.0
+Philippines	Bohol	1200.0
+Poland	Mazowieckie	1200.0
+Poland	Mazowieckie	1200.0
+Romania	Bucuresti	1200.0
+Russia	Moscow City	3600.0
+South Korea	Soul-t'ukpyolsi	1200.0
+Thailand	Phuket	1200.0
+Thailand	Phuket	1200.0
+The Bahamas	New Providence	1200.0
+The Bahamas	New Providence	1200.0
+Ukraine	Kiev	1200.0

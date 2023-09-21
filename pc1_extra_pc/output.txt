@@ -1,0 +1,48 @@
+Argentina	Buenos Aires	Ayacucho	1200.0
+Bahrain	Al Manamah	Al 'Adliyah	1200.0
+Bermuda	Hamilton	Hamilton	1200.0
+Bulgaria	Stara Zagora	Zagore	1200.0
+Cayman Isls	 	George Town	1200.0
+China	Guangdong	Taicheng	1200.0
+Costa Rica	Heredia	Santa Barbaraa	1200.0
+Czech Republic	Prague	Suchdol	1200.0
+Czech Republic	Prague	Suchdol	1200.0
+Czech Republic	Prague	Suchdol	1200.0
+Dominican Republic	Distrito Nacional	Santo Domingo City	1200.0
+Finland	Ita-Suomen Laani	Kuopio	1200.0
+Finland	Ita-Suomen Laani	Kuopio	1200.0
+Greece	Attiki	Athina	1200.0
+Guatemala	Guatemala	Atlantida	1200.0
+Hong Kong	 	Hong Kong	1200.0
+Hungary	Budapest	Chepel	1200.0
+Hungary	Budapest	Chepel	1200.0
+Hungary	Budapest	Chepel	1200.0
+Iceland	 	Thorlakshofn	1200.0
+India	Andhra Pradesh	Hyderabad	1200.0
+India	Andhra Pradesh	Hyderabad	1200.0
+Israel	Tel Aviv	Tel Aviv	1200.0
+Japan	Tokyo	Setagaya	1200.0
+Japan	Tokyo	Setagaya	1200.0
+Jersey	 	Gorey	1200.0
+Kuwait		Mushrif	1200.0
+Latvia	Riga	Vecmilgravis	1200.0
+Luxembourg	Luxembourg	Gasperich	1200.0
+Malaysia	Kuala Lumpur	Kuala Lumpur	1200.0
+Malta	 	Nadur	1200.0
+Malta	 	Nadur	1200.0
+Mauritius	Black River	Black River	3600.0
+Moldova	Chisinau	Bubuieci	1200.0
+Monaco	 	Monte-Carlo	1200.0
+Monaco	 	Monte-Carlo	1200.0
+Philippines	Bohol	Borja	1200.0
+Philippines	Bohol	Borja	1200.0
+Poland	Mazowieckie	Pruszkow	1200.0
+Poland	Mazowieckie	Pruszkow	1200.0
+Romania	Bucuresti	Voluntari	1200.0
+Russia	Moscow City	Tsaritsyno	3600.0
+South Korea	Soul-t'ukpyolsi	Songnae-dong	1200.0
+Thailand	Phuket	Phuket	1200.0
+Thailand	Phuket	Phuket	1200.0
+The Bahamas	New Providence	Killarney	1200.0
+The Bahamas	New Providence	Killarney	1200.0
+Ukraine	Kiev	Irpin'	1200.0
